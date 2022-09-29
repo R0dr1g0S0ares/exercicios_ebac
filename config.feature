@@ -20,8 +20,8 @@ Quando clicar no botão de "Comprar"
 E a quantidade for menor ou igual a 10 produtos
 Então deve finalizar a compra com sucesso
 
-Cenario: Quando eu clicar no botão “limpar” deve voltar ao estado original
+Cenario: Clicar no botão “limpar”
 Dado o cliente escolheu um produto na loja EBAC-SHOP
 Quando clicar no botão "limpar"
-E os campos cor, tamanho e quantidade estiverem preenchidos
+E retornar a Tela
 Então o produto deve voltar ao estado original
